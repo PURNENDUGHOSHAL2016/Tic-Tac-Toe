@@ -1,0 +1,17 @@
+.game--body{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: 5px auto;
+    background-color: #0a0a0a;
+    color: #4708f5;
+}
+.cell {
+    font-family: "Marker";
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f50505;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
